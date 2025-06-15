@@ -4,11 +4,11 @@ import joblib
 
 
 # Load the sample dataset to get unique values for dropdowns
-data = pd.read_csv(r'C:\Users\MSI\OneDrive\Documents\VSCodeProject\MoodSwingsPredictor-main\afiqhensem.csv')
+data = pd.read_csv(r'C:\Users\MSI\OneDrive\Documents\Cursor\TDS\MoodSwingPredictor\afiqhensem.csv')
 
 # Load the trained model and columns used during training
-model = joblib.load(r'C:\Users\MSI\OneDrive\Documents\VSCodeProject\MoodSwingsPredictor-main\mood_swings_model.pkl')
-columns = joblib.load(r'C:\Users\MSI\OneDrive\Documents\VSCodeProject\MoodSwingsPredictor-main\columns.pkl')
+model = joblib.load(r'C:\Users\MSI\OneDrive\Documents\Cursor\TDS\MoodSwingPredictor\mood_swings_model.pkl')
+columns = joblib.load(r'C:\Users\MSI\OneDrive\Documents\Cursor\TDS\MoodSwingPredictor\columns.pkl')
 
 # Get unique values for each feature
 gender_values = ['Female', 'Male']
